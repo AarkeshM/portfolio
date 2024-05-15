@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    position:relative;
+}
+div.alpha{
+    position:absolute;
+    margin-left: 900px;
+    top:23px;
+    bottom:0px;
+}
+
+
+p{
+    margin-left: 29px;
+    color: forestgreen;
+    font-size: 50px;
+    font-style: verdana;
+}
+div.letter{
+    margin-top: 100px;
+    width: 750px;
+}
+div.main{
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: 900px;
+    button{
+        font-size: 50px;
+        font-style: Arial ;
+        color:#ff0000;
+    }
+    
+
+}
+
+img{
+    background-color: #ffffff;
+}
