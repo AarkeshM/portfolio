@@ -1,42 +1,27 @@
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
     margin: 0;
     padding: 0;
-    z-index: 5;
-    position:relative;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+        
 }
-div.alpha{
-    position:absolute;
-    margin-left: 900px;
-    top:23px;
-    bottom:0px;
+nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    z-index: 10;
 }
-
-
-p{
-    margin-left: 29px;
-    color: forestgreen;
-    font-size: 50px;
-    font-style: verdana;
+.navbar-barand{
+    font-weight: 600;
 }
-div.letter{
-    margin-top: 100px;
-    width: 750px;
+.nav-link{
+     color: blue !important;
+     
 }
-div.main{
-    margin-top: 100px;
-    margin-left: 350px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    width: 900px;
-    button{
-        font-size: 50px;
-        font-style: Arial ;
-        color:#ff0000;
-    }
-    
-
-}
-
-img{
-    background-color: #ffffff;
+.nav-link:hover{
+    border-bottom: 1px solid rgb(248, 248, 248);
 }
